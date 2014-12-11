@@ -1,0 +1,13 @@
+package stlRepr;
+
+public class Triangle {
+
+	/**
+	 * @param args
+	 */
+	public Triangle(Vertex v1, Vertex v2, Vertex v3, Vertex norm) {
+		
+	}
+
+}
+

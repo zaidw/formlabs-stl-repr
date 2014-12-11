@@ -1,0 +1,20 @@
+package stlRepr;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Mesh {
+	
+	private HashMap<Vertex, HashSet<Triangle>> vertexIncidencies;
+	
+	public Mesh (ArrayList<Triangle> triangles){
+		for (Triangle triangle : triangles) {
+			for (Vertex v : triangle.getVertices()) {
+				if (vertexIncidencies.containsKey(v)){
+					vertexIncidencies.get(v).add(triangle);
+				}
+			}
+		}
+	}
+
+}

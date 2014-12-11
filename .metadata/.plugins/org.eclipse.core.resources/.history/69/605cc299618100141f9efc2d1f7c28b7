@@ -1,0 +1,10 @@
+package stlRepr;
+import java.util.ArrayList;
+
+public class Mesh {
+	
+	public Mesh (ArrayList<Triangle> triangles){
+		
+	}
+
+}

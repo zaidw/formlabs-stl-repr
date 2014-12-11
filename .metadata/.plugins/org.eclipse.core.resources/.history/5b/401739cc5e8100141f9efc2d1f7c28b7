@@ -1,0 +1,12 @@
+package stlRepr;
+
+public class Triangle {
+
+	/**
+	 * @param args
+	 */
+	public Triangle() {
+		
+	}
+
+}
